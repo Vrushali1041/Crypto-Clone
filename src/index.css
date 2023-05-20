@@ -1,13 +1,52 @@
-body {
+
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1{
+  padding: 1rem;
 }
+
+table{
+  border-collapse:collapse;
+}
+
+div {
+  text-align: center;
+  background: url(https://images.pexels.com/photos/1905054/pexels-photo-1905054.jpeg?auto=compress&cs=tinysrgb&w=600) center/cover;
+}
+
+.table{
+  width: 90%;
+  background-color: #fff5;
+  margin-left: 4rem;
+  margin-right: 3rem;
+  border-radius: 10px;
+ 
+}
+
+.heading th{
+  color: #0f0f0f;
+  height: 4.5rem;
+  font-size: 1.4rem;
+  background-color: #fff4;
+}
+
+.data td{
+  color: #0e0d0d;
+  height: 53px;
+}
+
+.data tr:nth-child(even){
+  background-color: #0000000a;
+}
+
+.data tr:hover{
+  background-color: #fff6;
+}
+
+
+
